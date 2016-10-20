@@ -32,7 +32,7 @@ case "$1" in
                         apt-get install avrdude
                         cd /etc/
                         mv /etc/avrdude.conf /etc/avrdude.back
-                        wget http://www.gurdil.be/blog/public/Linux/avrdude/exemple1/avrdude.conf
+                        wget https://raw.githubusercontent.com/Gruniek/AVRDuino/master/avrdude.conf
                         echo '[ DONE ]'
                 fi
                 ;;
