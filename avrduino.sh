@@ -27,7 +27,7 @@ case "$1" in
                         echo "Sorry, you are not root."
 
                 else
-
+                        
                         apt-get update
                         apt-get install avrdude
                         cd /etc/
