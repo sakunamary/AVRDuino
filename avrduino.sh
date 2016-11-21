@@ -27,7 +27,9 @@ case "$1" in
                         echo "Sorry, you are not root."
 
                 else
-                        
+                        wget https://raw.githubusercontent.com/Gruniek/AVRDuino/master/avrduino.sh
+                        chmod 777 avrduino.sh
+                        mv avrduino.sh /bin/avrduino
                         apt-get update
                         apt-get install avrdude
                         cd /etc/
