@@ -19,8 +19,8 @@ git clone https://github.com/sakunamary/AVRDuino.git
    sudo ./avrduino.sh install  
 
 Usage
-avrduino programmer  port  .hex file   like this :
-avrduino usbtiny usb:001:001 boot.hex
+avrduino MCU type programmer  port        .hex file   like this :
+avrduino uno       usbtiny    usb:001:001 boot.hex
 
 
 
