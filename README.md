@@ -2,8 +2,8 @@
 A simple Bash Script for upload a .hex Arduino on Linux
 
 
-Install
 
+Install
 1.Frist you should install the git ,so that you can clone the git 
 
 sudo apt-get update -y 
@@ -15,7 +15,11 @@ git clone https://github.com/sakunamary/AVRDuino.git
 
 3.run following scripts
    cd AvrDuino 
-   
-
+   sudo avrduino install  
 
 Usage
+avrduino programmer  port  .hex file   like this :
+avrduino usbtiny usb:001:001 boot.hex
+
+
+
