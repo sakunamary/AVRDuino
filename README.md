@@ -15,7 +15,8 @@ git clone https://github.com/sakunamary/AVRDuino.git
 
 3.run following scripts
    cd AvrDuino 
-   sudo avrduino install  
+   chmod +x ./avrduino.sh
+   sudo ./avrduino.sh install  
 
 Usage
 avrduino programmer  port  .hex file   like this :
