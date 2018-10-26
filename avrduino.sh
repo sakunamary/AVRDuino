@@ -53,10 +53,12 @@ case "$1" in
                 echo "        pro-mini -> Arduino Pro-Mini 5v 16mhz";
                 echo "        mega     -> Arduino MEGA2560";
                 echo " ";
-                echo "        Select the port (ls /dev/tty*)";
+                echo "        Select the programmer type : USBTinyISP ";
+                echo "        Select the port (ls /dev/tty*) ,for usb device (lsusb)";
                 echo " ";
                 echo "        Select the .hex to upload";
                 echo " ";
+                echo "Usage Exampls: sudo avrduino uno usbtiny usb:001:001 boot.hex ";
                 echo "- Enjoy ! -";
                 ;;
 
